@@ -1,0 +1,26 @@
+.bitcoin-duration-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 1rem 0;
+}
+.bitcoin-duration-conatiner-right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #768396;
+    cursor: pointer;
+}
+.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem 0.3rem;
+    background-color: #e2ecfe;
+    color: #0141cf;
+    height: max-content;
+    border-radius: 20px;
+    width: max-content;
+
+}
