@@ -1,11 +1,19 @@
 .content-descript{
     /* font-weight: lighter; */
     color: #3e5765;
+    display: flex;
+    align-items: center;
+    gap: 8px;
  
 }
 .content-container{
     padding: 0 2.5rem;
     
+}
+.content-container p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .BTC-card{
@@ -19,14 +27,52 @@
     display: flex;
     margin-top: 1rem;
 }
+
+.right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .getStarted-card{
+
+    color: #ffffff;
+    position: relative;
     width: 27vw;
     height: 70vh;
     background: linear-gradient(to right, #286fea, #1b4aef);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 2.5rem;
+    padding: 2.5rem 2.5rem;
+    text-align: center;
     /* justify-content:center ; */
+}
+
+.getStarted-card img{
+    
+    height: 45%;
+    width: 80%;
+}
+
+.getStarted-card p{
+    font-size: 14px;
+   font-weight: 300;
+}
+
+.getStarted-card button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    width: 15rem;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
 }
