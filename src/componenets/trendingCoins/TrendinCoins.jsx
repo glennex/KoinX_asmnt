@@ -12,7 +12,7 @@ function TrendinCoins() {
         try {
           const response = await fetch("https://api.coingecko.com/api/v3/search/trending");
           const data = await response.json();
-          console.log(data.coins);
+        //   console.log(data.coins);
           const topThreeCoins = data.coins.slice(0, 3).map(coin => {
             const priceChangeINR = parseFloat(coin.item.data.price_change_percentage_24h.inr).toFixed(2);
             return {
@@ -23,7 +23,7 @@ function TrendinCoins() {
             };
           });
           setTopCoins(topThreeCoins);
-          console.log(topThreeCoins);
+        //   console.log(topThreeCoins);
         } catch (error) {
           console.error('Error fetching data:', error);
         }

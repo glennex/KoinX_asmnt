@@ -4,14 +4,17 @@ import "./content.css";
 import startedImg from '../../assets/temp.png'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { RxDoubleArrowRight } from "react-icons/rx";
+import BtcCard from '../BTC/BtcCard';
 
-function Content() {
+function Content(props) {
   return (
     <div className='content-container'>
          <p><span className='content-descript'>Cryptocurrencies  <RxDoubleArrowRight/></span> Bitcoin</p>
          <div className="left-right-wrapper">
          <div className="left-container">
-       <div className="BTC-card"></div>
+       <div className="BTC-card-container">
+          <BtcCard usdValue={props.usdValue} inrValue={props.inrValue} usd24hrChange={props.usd24hrChange}/>
+       </div>
        </div>
        <div className="right-container">
         <div className="getStarted-card">

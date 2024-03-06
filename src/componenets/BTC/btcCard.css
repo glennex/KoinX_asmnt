@@ -1,0 +1,55 @@
+
+.BTC-header img{
+    height: 40px;
+    width: 40px;
+}
+
+.BTC-header{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    margin-bottom: 2.5rem;
+}
+.BTC-header span{
+    color: #768396;
+    font-weight: 500;
+}
+
+.rankdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #768396;
+    color: #ffffff;margin-left: 1.3rem;
+}
+.BTC-values .usd{
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.BTC-values .usd h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+.BTC-values .inr{
+    padding: 0.5rem 0.5rem;
+    /* background-color: rebeccapurple; */
+}
+.BTC-card-top{
+   border-bottom: 1px solid lightgrey;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    height: 30%;
+}
+
+.BTC-card-middle{
+    height: 70%;
+    width: 100%;
+}
