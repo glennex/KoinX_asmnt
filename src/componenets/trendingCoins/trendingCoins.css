@@ -33,8 +33,9 @@
     align-items: center;
     justify-content: space-between;
     height: 28px;
-    width: 100px;
+    width: max-content;
     border-radius: 3px;
+    padding: 0 0.5rem;
     
 }
 
@@ -46,3 +47,4 @@
     background-color: #f0e3e2;
     color: #e96975;
 }
+
