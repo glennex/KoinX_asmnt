@@ -1,10 +1,9 @@
 .morecoindiv{
     height: 500px;
-    /* width: 500px; */
+
 }
 
 .coinItems{
-    /* position: relative; */
     display: flex;
     gap: 1rem;
     overflow-x: scroll;
