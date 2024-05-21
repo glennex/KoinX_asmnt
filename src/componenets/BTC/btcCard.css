@@ -7,7 +7,6 @@
 .BTC-header{
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     gap: 10px;
     margin-bottom: 2.5rem;
 }
@@ -27,7 +26,6 @@
     color: #ffffff;margin-left: 1.3rem;
 }
 .BTC-values .usd{
-    /* background-color: pink; */
     display: flex;
     align-items: center;
     gap: 10px;
